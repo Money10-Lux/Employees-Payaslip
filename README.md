@@ -1,5 +1,5 @@
 # Employees-Payaslip
-Generating Payslip uaing C++
+Generating Payslip using C++
 
 c++ program to create payslips for employees in a small company. The details of the employee are declared as a structure and include:
 
