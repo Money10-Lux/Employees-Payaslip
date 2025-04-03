@@ -39,6 +39,7 @@ Enter a number (1–6) to select an option and follow the prompts.
 
 # Example Workflow
 Generate Payslip: Choose option 1, enter the number of employees, and provide details (name, payroll number, basic salary, house allowance, commuter allowance). The payslip is saved to payslips.txt.
+
 Search Payslip: Choose option 3, enter an employee’s name, and view their payslip if found.
 Delete Payslip: Choose option 4, enter an employee’s name, and remove their payslip from the file.
 
