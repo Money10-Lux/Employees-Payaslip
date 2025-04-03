@@ -32,13 +32,21 @@ g++ pay22.cpp -o pay22
 Run the compiled program.
 
 A menu will appear with the following options:
+
 ============= Payroll System =============
+
 (1) Generate Payslip
+
 (2) Display all Payslips
+
 (3) Search individual payslip
+
 (4) Delete payslip by Name (Individual)
+
 (5) Delete the entire payslip Records
+
 (6) Exit
+
 Enter Choice:
 
 Enter a number (1–6) to select an option and follow the prompts.
