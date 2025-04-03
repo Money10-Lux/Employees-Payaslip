@@ -14,19 +14,25 @@ This is a simple command-line payroll management system written in C++. It allow
 
 # Prerequisites
 A C++ compiler (e.g., g++, MinGW, or any IDE like Visual Studio, Code::Blocks).
+
 Basic understanding of C++ file I/O and structs.
 
 # Installation
 Clone or download the source code to your local machine.
+
 Open the code in your preferred C++ IDE or text editor.
+
 Compile and run the program using a C++ compiler. For example:
 
 g++ pay22.cpp -o pay22
+
 ./pay22
 
 # Usage
 Run the compiled program.
+
 A menu will appear with the following options:
+
 ============= Payroll System =============
 (1) Generate Payslip
 (2) Display all Payslips
@@ -35,10 +41,13 @@ A menu will appear with the following options:
 (5) Delete the entire payslip Records
 (6) Exit
 Enter Choice:
+
 Enter a number (1–6) to select an option and follow the prompts.
 
 # Example Workflow
-Generate Payslip: Choose option 1, enter the number of employees, and provide details (name, payroll number, basic salary, house allowance, commuter allowance). The payslip is saved to payslips.txt.
+Generate Payslip: Choose option 1, enter the number of employees, and provide details (name, payroll number, basic salary, house allowance, commuter allowance). 
+
+The payslip is saved to payslips.txt.
 
 Search Payslip: Choose option 3, enter an employee’s name, and view their payslip if found.
 
