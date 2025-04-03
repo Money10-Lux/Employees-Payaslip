@@ -32,7 +32,6 @@ g++ pay22.cpp -o pay22
 Run the compiled program.
 
 A menu will appear with the following options:
-
 ============= Payroll System =============
 (1) Generate Payslip
 (2) Display all Payslips
