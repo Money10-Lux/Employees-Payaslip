@@ -68,10 +68,14 @@ temp.txt: Temporary file used during deletion operations (deleted after use).
 # Calculations
 Gross Pay: Basic Salary + House Allowance + Commuter Allowance
 Deductions:
-        PAYE: 30% of Gross Pay
-        NSSF: Fixed at 500
-        NHIF: Fixed at 200
-        Net Salary: Gross Pay - (PAYE + NSSF + NHIF)
+
+PAYE: 30% of Gross Pay
+
+NSSF: Fixed at 500
+
+NHIF: Fixed at 200 
+
+Net Salary: Gross Pay - (PAYE + NSSF + NHIF)
 
 # Notes
 The program uses a simple text file (payslips.txt) for persistent storage.
