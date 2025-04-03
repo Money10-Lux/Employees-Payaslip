@@ -46,6 +46,7 @@ Delete Payslip: Choose option 4, enter an employee’s name, and remove their pa
 
 # File Structure
 payslips.txt: Stores all generated payslips. Created automatically when payslips are generated.
+
 temp.txt: Temporary file used during deletion operations (deleted after use).
 
 # Calculations
@@ -59,17 +60,24 @@ Deductions:
 # Notes
 The program uses a simple text file (payslips.txt) for persistent storage.
 Deduction rates (PAYE, NSSF, NHIF) are hardcoded and may need adjustment based on real-world requirements.
+
 The system("cls") command is used to clear the console, which works on Windows. For Linux/macOS, replace it with system("clear") or remove it.
 
 # Limitations
 No input validation for negative values or non-numeric inputs.
+
 Payslip deletion relies on exact name matches (case-sensitive).
+
 No option to edit existing payslips.
+
 File handling assumes the program has write permissions in the working directory.
 
 # Future Improvements
 Add input validation for robustness.
+
 Implement an option to update existing payslips.
+
 Use a database instead of a text file for better scalability.
+
 Support configurable tax and deduction rates.
 
